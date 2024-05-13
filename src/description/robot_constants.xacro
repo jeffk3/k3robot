@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Define Robot Contants -->
+    <xacro:property name="base_width" value="0.18"/>
+    <xacro:property name="base_length" value="0.38"/>
+    <xacro:property name="base_height" value="0.10"/>
+
+    <xacro:property name="wheel_radius" value="0.06"/>
+    <xacro:property name="wheel_width" value="0.06"/>
+
+    <xacro:property name="wheel_ygap" value="0.064"/>
+    <xacro:property name="wheel_zoff" value="0.05"/>
+    <xacro:property name="wheel_xoff" value="0.0"/>
+
+</robot>
